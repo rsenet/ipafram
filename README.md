@@ -20,7 +20,7 @@ optional arguments:
 You just have to specify the IPA file in input to get the used framework:
 
 ```bash
-$ python3 ipaFram.py --file examples/diva.ipa
+$ python3 ipaFram.py --file examples/dvia.ipa
 [!] No framework detected
 
 $ python3 ipaFram.py --file examples/xam.ipa
@@ -29,13 +29,9 @@ $ python3 ipaFram.py --file examples/xam.ipa
 
 Currently supported frameworks:
 
-* Cordova/PhoneGap
-* Ionic Cordova
-* Flutter
 * ReactNative
 * ReactNative compiled with Hermes
-* Unity
-* Xamarin
+
 
 ## Author
 
