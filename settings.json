@@ -1,0 +1,18 @@
+[
+    {
+        "file": "NOTICE",
+        "framework": "Xamarin"
+    },
+    {
+        "file": "main.jsbundle",
+        "framework": "ReactNative"
+    },
+    {
+        "file": "main.jsbundle",
+        "framework": "ReactNative compiled with Hermes"
+    },
+    {
+        "file": "Frameworks/hermes.framework",
+        "framework": "ReactNative compiled with Hermes"
+    }
+]
