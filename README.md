@@ -23,6 +23,9 @@ You just have to specify the IPA file in input to get the used framework:
 $ python3 ipaFram.py --file examples/dvia.ipa
 [!] No framework detected
 
+$ python3 ipafram.py --file examples/react.ipa
+[!] ReactNative compiled with Hermes seems to be the best answer
+
 $ python3 ipaFram.py --file examples/xam.ipa
 [!] Xamarin seems to be the best probability
 ```
@@ -31,7 +34,7 @@ Currently supported frameworks:
 
 * ReactNative
 * ReactNative compiled with Hermes
-
+* Xamarin
 
 ## Author
 
