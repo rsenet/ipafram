@@ -10,8 +10,10 @@ def get_app_name(zip_file_list):
     """
     for element in zip_file_list:
         if element.count("/") == 2:
-            element = element.replace("Payload/", "").replace("/", "")
-            return element
+            if "Info.plist" in element:
+                element = element.replace("Payload/", "").replace("/Info.plist", "")
+
+                return element
 
 
 def parse_ipa(ipa_path):
@@ -19,6 +21,7 @@ def parse_ipa(ipa_path):
 
     :param ipa_path: Full path to the IPA
     """
+
     result = {}
     parser = open("settings.json", "r").read()
     fram_dict = json.loads(parser)
