@@ -28,6 +28,9 @@ $ python3 ipafram.py --file examples/react.ipa
 
 $ python3 ipaFram.py --file examples/xam.ipa
 [!] Xamarin seems to be the best probability
+
+$ python3 ipafram.py --file examples/flutter.ipa
+[!] Flutter seems to be the best answer
 ```
 
 Currently supported frameworks:
@@ -35,6 +38,8 @@ Currently supported frameworks:
 * ReactNative
 * ReactNative compiled with Hermes
 * Xamarin
+* Flutter
+
 
 ## Author
 

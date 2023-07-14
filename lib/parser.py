@@ -11,7 +11,7 @@ def get_app_name(zip_file_list):
     for element in zip_file_list:
         if element.count("/") == 2:
             if "Info.plist" in element:
-                element = element.replace("Payload/", "").replace("/Info.plist", "")
+                element = element.replace("Payload/", "").replace("/Info.plist", "").replace("/AppFrameworkInfo.plist", "")
 
                 return element
 
@@ -28,6 +28,7 @@ def parse_ipa(ipa_path):
 
     zipf = zipfile.ZipFile(ipa_path)
     zip_file_list = zipf.namelist()
+    #print(zip_file_list)
 
     for frame_info in fram_dict:
         file, framework = frame_info["file"], frame_info["framework"]

@@ -14,5 +14,9 @@
     {
         "file": "Frameworks/hermes.framework",
         "framework": "ReactNative compiled with Hermes"
+    },
+    {
+        "file": "Frameworks/Flutter.framework/",
+        "framework": "Flutter"
     }
 ]
